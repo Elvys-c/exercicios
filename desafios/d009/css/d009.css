@@ -1,0 +1,22 @@
+*{
+  font-family: Arial;
+}
+
+body {
+  background-color: #161a1d;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  /* position: relative; */
+}
+
+.cursos {
+  width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}

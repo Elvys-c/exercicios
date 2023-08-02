@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img-d002/favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML 5</title>
+  </head>
+  <body>
+
+    <h1>Imagem dinâmica</h1>
+
+    <p>
+      Tente abrir esse site em vários dispositivos diferentes ou
+      simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+
+    <picture>
+      <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+      <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+      <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzir Àudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML 5.</p>
+    <!-- os formatos mais comuns são MP3 WAV OGG -->
+    <!-- <audio src="media/audio-curso.mp4" controls autoplay></audio> -->
+    <audio preload="metadata" autoplay controls>
+      <source src="media/audio-curso.mp4" type="audio/mpeg">
+      <!-- <source src="media/audio-curso.ogg" type="audio/ogg"> -->
+      <!-- <source src="media/audio-curso.wav" type="audio/wav"> Evitar por ser muito pesado-->
+      <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+      <a href="media/audio-curso.mp4">Clique aqui para baixar o arquivo MP3.</a>
+    </audio>
+  </body>
+</html>

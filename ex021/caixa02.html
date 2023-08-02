@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img-d002/favicon.ico" type="image/x-icon">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0;
+            box-shadow: 4px 4px 9px 0px rgb(0, 0, 0, 0.315);
+        }
+        
+        nav {
+            background-color: lightgrey;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgb(0, 0, 0, 0.315);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(138, 5, 34);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: white;
+        }
+
+        article > aside {
+            background-color: gray;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        p > a {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a> 
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assusntos">
+            <p>Esporte, Política e Tecnologia</p>
+        </section>
+        
+        <section id="noticias">
+            <article>
+                <h2>Noticias inúteis</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur et voluptatem reprehenderit doloremque aut magni similique placeat nam at, animi dicta id eum consequuntur vero sequi voluptates incidunt temporibus doloribus?</p>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nulla itaque asperiores culpa neque tempora deserunt perspiciatis enim? Soluta voluptas quam veniam 
+                        praesentium quod sunt, debitis ipsum eaque autem, eum delectus?</p>
+                </aside>
+            </article>
+            
+            <article>
+                <h6>Resumo</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sunt iste at ipsum incidunt, facilis voluptatibus dolore cum, suscipit ad animi? Libero excepturi, esse eveniet minima provident doloribus non atque!</p>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Desenvolvido por <a href="#">Elvys Cavalcante Ferreira</a>.</p>
+    </footer>
+</body>
+</html>
