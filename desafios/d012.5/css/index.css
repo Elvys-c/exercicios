@@ -7,87 +7,70 @@
     padding: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 header {
     background-color: black;
     height: 250px;
+    color: white;
+    text-align: center;
 }
 
 header > h1 {
-    font-size: 8em;
-    text-align: center;
-    font-family: 'Passion One', 'cursive';
-    color: white;
     padding-top: 50px;
-    margin-bottom: 0px;
+    font-variant: small-caps;
 }
 
 header > p {
-    margin-top: 0px;
-    text-align: center;
-    color: white;
-    font-family: monospace;
+    padding-bottom: 50px;
 }
 
 a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.imagem > p {
+    width: 400px;
+    background-color: rgb(0, 0, 0, 0.253);
 }
 
 p {
-    padding-left: 15px;
     font-family: 'Sriracha', 'cursive';
-    font-size: 3em;
-}
-
-body {
-    position: relative;
 }
 
 footer {
     color: white;
     background-color: black;
-    text-decoration: none;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 footer > p {
     font-size: 1em;
-}
-
-.estrofe {
-    position: relative;
-    background-color: white;
-    margin: 50px 0px;
-}
-
-.background1 {
-    width: 100%;
-    background-color: black;
-    background-image: url('../img/background001.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right top;
-    background-size: cover;
-}
-
-.background2 {
-    width: 100%;
-    background-color: black;
-    background-image: url('../img/background002.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right top;
-    background-size: cover;
-
-}
-
-.fundo-translucido {
-    margin-left: 50px;
-    background-color: black;
-    opacity: 0.3;
-    color: white;
-    width: 50%;
-    font-weight: bold;
 }
